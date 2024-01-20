@@ -8,12 +8,27 @@ body {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+h1 h2 h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.header-logo,
 .logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -168,4 +183,40 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.header-container,
+.order-container,
+.benefits-container,
+.ourteam-container,
+.portfolio-container,
+.footer-container {
+  max-width: 1128px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.header-container,
+.header-nav,
+.nav-ul,
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  justify-content: space-between;
+}
+
+.nav-ul,
+.contacts,
+.header-logo {
+  gap: 40px;
+  padding: 24px 0;
+}
+
+.header-logo {
+  padding-right: 76px;
 }

@@ -185,12 +185,11 @@ img {
   letter-spacing: 0.02em;
 }
 
-.header-container,
-.order-container,
-.benefits-container,
-.ourteam-container,
-.portfolio-container,
-.footer-container {
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container {
   max-width: 1128px;
   padding-left: 15px;
   padding-right: 15px;
@@ -214,9 +213,12 @@ img {
 .contacts,
 .header-logo {
   gap: 40px;
+}
+
+.nav-item {
   padding: 24px 0;
 }
 
 .header-logo {
-  padding-right: 76px;
+  margin-right: 76px;
 }
